@@ -1,0 +1,47 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.top-banner{
+    background-image: url(images/Cranberry\ Pano.jpg);
+    background-repeat: no-repeat;
+}
+.flexible-container{
+    display: flex;
+}
+.orange-color{
+    color: orange;
+}
+.half-width{
+    width: 60%;
+    padding-left: 20px;
+}
+.third-width{
+    width: 33%;
+    padding-left: 15px;
+    margin-left: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+}
+footer p {
+    text-align: center;
+}
+.stakeholders{
+    margin-left: 10px;
+    /*background-image: url(images/Fraser\ River.jpg);*/
+}
+#cust {
+    border-left: 10px solid;
+    border-image:linear-gradient(yellow, green);
+    border-image-slice: 1;
+}
+#comm {
+    border-left: 10px solid;
+    border-image:linear-gradient(red, silver);
+    border-image-slice: 1;
+}
+#patr {
+    border-left: 10px solid;
+    border-image:linear-gradient(cyan, maroon);
+    border-image-slice: 1;
+}
