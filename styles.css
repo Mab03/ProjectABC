@@ -5,6 +5,7 @@ body{
 .top-banner{
     background-image: url(images/Cranberry\ Pano.jpg);
     background-repeat: no-repeat;
+    padding: 20px;
 }
 .flexible-container{
     display: flex;
@@ -44,4 +45,12 @@ footer p {
     border-left: 10px solid;
     border-image:linear-gradient(cyan, maroon);
     border-image-slice: 1;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
 }
